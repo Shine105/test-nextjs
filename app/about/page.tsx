@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { title } from 'process'
 
 const AboutPage = () => {
   return (
@@ -11,3 +12,7 @@ const AboutPage = () => {
 }
 
 export default AboutPage
+
+export const  metadata = {
+  title:"About Blog",
+};
